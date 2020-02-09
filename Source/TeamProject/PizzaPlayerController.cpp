@@ -11,7 +11,7 @@ void APizzaPlayerController::PostInitializeComponents()
 	Super::PostInitializeComponents();
 }
 
-void APizzaPlayerController::Possess(APawn * aPawn)
+void APizzaPlayerController::OnPossess(APawn * aPawn)
 {
-	Super::Possess(aPawn);
+	Super::OnPossess(aPawn);
 }
